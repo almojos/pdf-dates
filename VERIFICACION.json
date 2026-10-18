@@ -1,0 +1,24 @@
+{
+  "application": "PDF Dates",
+  "version": "1.0.0",
+  "platform_tested": "Windows 11 x64",
+  "source_tests": {
+    "run": 7,
+    "passed": 7
+  },
+  "executable_exit_code": 0,
+  "executable_tests": {
+    "version": "1.0.0",
+    "file_times_verified": true,
+    "source_unchanged": true,
+    "invalid_date_rejected": true,
+    "backup_verified": true,
+    "out_of_range_rejected": true,
+    "external_change_rejected": true,
+    "encrypted_rejected": true,
+    "damaged_xmp_rejected": true,
+    "ok": true
+  },
+  "sha256_exe": "c3d36876f49cb1fad303413d6a7f36382472e48add352cb864d7e09dfc696915",
+  "note": "Pruebas con PDFs generados para este fin. No prueba universal de todos los PDFs o equipos."
+}

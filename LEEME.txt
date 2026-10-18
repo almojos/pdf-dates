@@ -1,0 +1,48 @@
+PDF Dates — aplicación portable para Windows
+Versión 1.0.0
+
+ABRIR
+Haz doble clic en PDF Dates.exe. No necesitas instalar Python ni usar comandos.
+No requiere servidor, cuenta ni conexión a Internet para editar los documentos.
+
+USO
+1. Pulsa «Abrir PDF…».
+2. Cada fila tiene tres modos:
+   - Conservar: deja esa fecha sin cambios.
+   - Editar: introduce AAAA-MM-DD HH:MM:SS y la zona de ESA fecha.
+   - Ahora: usa la hora actual expresada en la zona de ESA fecha.
+3. La hora manual se guarda como la escribes, sin convertirla automáticamente.
+4. «Actualizar también XMP» sincroniza creación y modificación XMP con los campos
+   INFO que edites. xmp:MetadataDate es independiente; no cambia si lo conservas.
+5. «Sincronizar Creado y Modificado» aplica las fechas INFO finales a las propiedades
+   del archivo de salida. Deben existir ambas fechas y tener zona horaria.
+6. Guarda una copia (recomendado) o sobrescribe tras confirmar.
+
+SEGURIDAD
+- Antes de reemplazar cualquier archivo existente se crea una copia de seguridad:
+  documento.pdf.bak, documento.pdf.bak2, etc. No se reemplazan copias anteriores.
+  El respaldo conserva el contenido y las fechas originales de Creado y Modificado.
+- Un paquete XMP dañado se rechaza antes de editar, en vez de recuperarlo perdiendo datos.
+- La hora de «Ahora» queda fijada antes de la confirmación: se guarda el valor mostrado.
+- La ventana permite desplazamiento vertical y horizontal si la pantalla es pequeña.
+- Se verifica el contenido del PDF guardado y las fechas del archivo sincronizadas.
+- Si el origen cambia en otra aplicación desde que lo abriste, vuelve a abrirlo.
+- Reescribir un PDF puede invalidar firmas digitales. Trabaja primero con copias.
+- Los PDFs cifrados no se procesan. No se solicitan contraseñas.
+- Un error después del guardado se informa como tal; no se oculta un resultado parcial.
+
+FECHAS DE WINDOWS
+Windows muestra las fechas en la zona horaria del equipo. Puede mostrar una hora
+que no coincida literalmente con la del PDF, pero representa el mismo instante.
+«Último acceso» no se sincroniza; el sistema puede cambiarlo al leer el archivo.
+Si no sincronizas las propiedades, guardar puede cambiar las fechas de Windows.
+Los offsets son fijos, no reglas automáticas de horario de verano.
+
+PORTABILIDAD
+El ejecutable incluye sus dependencias. Puede copiarse a otra carpeta.
+No está firmado con un certificado comercial. No desactives el antivirus ni
+ignores alertas de seguridad; si aparece un bloqueo, revisa el mensaje concreto.
+
+CÓDIGO FUENTE
+Los archivos pdf_dates_app.py y pdf_dates_core.py y las pruebas se entregan aparte.
+El fichero THIRD_PARTY_LICENSES.txt recoge las licencias de bibliotecas incluidas.

@@ -1,0 +1,29 @@
+# Entornos y dependencias
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Compilación y entregas: se distribuyen en Releases, no en Git
+build/
+dist/
+entrega/
+*.exe
+*.zip
+
+# Documentos y copias de seguridad del usuario
+*.pdf
+*.bak
+*.bak[0-9]*
+*.tmp
+PDFDates-pruebas-*/
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
