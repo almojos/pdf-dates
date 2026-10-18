@@ -46,3 +46,13 @@ ignores alertas de seguridad; si aparece un bloqueo, revisa el mensaje concreto.
 CÓDIGO FUENTE
 Los archivos pdf_dates_app.py y pdf_dates_core.py y las pruebas se entregan aparte.
 El fichero THIRD_PARTY_LICENSES.txt recoge las licencias de bibliotecas incluidas.
+
+LICENCIA Y AUTORÍA
+Código propio: Copyright (c) 2026 almojos. Licencia MIT: consulta LICENSE.
+Esta licencia se aplica al código propio de PDF Dates, no a los componentes ajenos.
+Sus licencias y avisos originales se conservan en THIRD_PARTY_LICENSES.txt.
+THIRD_PARTY_SOURCES.md explica el acceso al código fuente correspondiente.
+El ZIP incorpora las fuentes originales de pikepdf 10.17.0 (MPL-2.0) en:
+Fuentes-terceros/pikepdf-10.17.0.tar.gz
+Conserva estos archivos y avisos al redistribuir el paquete.
+Esta actualización de la documentación no cambia el ejecutable 1.0.0.

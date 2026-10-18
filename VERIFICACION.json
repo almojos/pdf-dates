@@ -1,6 +1,13 @@
 {
   "application": "PDF Dates",
   "version": "1.0.0",
+  "distribution_revision": "MIT-1",
+  "copyright_original_code": "Copyright (c) 2026 almojos",
+  "original_code_license": "MIT",
+  "pikepdf_source": {
+    "file": "Fuentes-terceros/pikepdf-10.17.0.tar.gz",
+    "sha256": "de4ccaae83628e86c1fd473b384c09c6ff1dd35a583a8dacbf61d2aa4bea843b"
+  },
   "platform_tested": "Windows 11 x64",
   "source_tests": {
     "run": 7,

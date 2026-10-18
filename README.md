@@ -8,6 +8,8 @@ En **Releases → v1.0.0**, descarga `PDF-Dates-1.0.0-Windows.zip`, pulsa **Extr
 
 No requiere instalar Python, servidor ni cuenta. Los documentos se procesan localmente.
 
+Autoría del código propio: **almojos**. Licencia: **MIT**. Las dependencias conservan sus propias licencias.
+
 ## Funciones
 
 - Fechas de creación y modificación INFO.
@@ -61,3 +63,13 @@ El modo diagnóstico `--self-test CARPETA` crea sus documentos y su informe úni
 - Integridad ZIP y hash del ejecutable comprobados.
 
 Consulta `LEEME.txt` para las limitaciones y las precauciones completas.
+
+## Licencia
+
+El código propio de PDF Dates se publica bajo **MIT**, con `Copyright (c) 2026 almojos`; consulta [LICENSE](LICENSE). Esto incluye el código propio de la versión 1.0.0 desde su revisión inicial.
+
+La licencia MIT **no sustituye** las de las bibliotecas, el runtime ni otros componentes ajenos. Conserva [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt) y [THIRD_PARTY_SOURCES.md](THIRD_PARTY_SOURCES.md) al redistribuir la aplicación.
+
+El ZIP portable incorpora la licencia propia, los avisos de terceros y la distribución de fuentes original de **pikepdf 10.17.0**, componente MPL-2.0, en `Fuentes-terceros/pikepdf-10.17.0.tar.gz`. Los enlaces a sus fuentes y su hash están en `THIRD_PARTY_SOURCES.md`.
+
+Esta revisión del paquete añade documentación de licencias y fuentes de terceros; **el ejecutable y su funcionamiento no cambian**. La etiqueta original `v1.0.0` conserva su commit histórico, y la documentación actual de licencias se facilita en este repositorio y en el ZIP actualizado de la release.
